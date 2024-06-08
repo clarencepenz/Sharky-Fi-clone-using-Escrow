@@ -11,6 +11,7 @@ pub struct CollectionPool {
     /// Loan Duration
     pub duration: i64,
 
+    
     /// Total Loans
     pub total_offers: u64,
 
