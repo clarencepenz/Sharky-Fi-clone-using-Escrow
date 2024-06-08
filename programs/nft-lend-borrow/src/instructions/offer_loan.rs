@@ -56,6 +56,7 @@ impl<'info> OfferLoan<'info> {
     }
 }
 
+
 pub fn handler(ctx: Context<OfferLoan>, offer_amount: u64) -> Result<()> {
     let offer_account = &mut ctx.accounts.offer_loan;
     let collection = &mut ctx.accounts.collection_pool;
