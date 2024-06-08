@@ -14,6 +14,7 @@ pub struct Offer {
     /// Lender
     pub lender: Pubkey,
 
+    
     /// Loan Taken
     pub is_loan_taken: bool,
 
